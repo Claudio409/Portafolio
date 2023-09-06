@@ -1,0 +1,42 @@
+.sobreMi{
+    padding: 1rem 5rem;
+    background-color: var(--color_ceniza_negra);
+}
+.container_text_img{
+    background-color: var(--color_ceniza_negra);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.container_text{
+    color: var(--color_Hueso);
+    margin: 1rem 8rem 0 0;
+}
+
+.text_hola{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.title_sobreMi{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+.text_sobreMI{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.text_sobreMI::after{
+    content: "|";
+}
+.text_sobreMi_mas{
+    font-size: 1.5rem;
+}
+.text_sobreMi_mas::before,.text_sobreMi_mas::after{
+    content: '"';
+}
+.img_me{
+    height: 22rem;
+    width: auto;
+    padding: 1rem .5rem;
+    border-radius: 2rem;
+}

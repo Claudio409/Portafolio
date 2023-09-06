@@ -1,0 +1,36 @@
+.header_main{
+    background-color: var(--negro);
+}
+.header_main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.icon_nombre{
+   font-family: var(--letras_grandes);
+   font-size: 2rem;
+   color: var(--blanco);
+}
+.nav_main{
+    text-align: center;
+    display: flex;
+}
+.nav_link{
+    width: auto;
+    display: block;
+    font-family: var(--navegacion);
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid var(--borde_nav);
+    border-radius: 5px;
+    color: var(--blanco);
+    font-size: 1.2rem;
+   /* margin-bottom: 10px;*/ /*para celulares*/
+
+}

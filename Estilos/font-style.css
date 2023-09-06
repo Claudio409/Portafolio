@@ -1,0 +1,13 @@
+:root{
+    --letras_grandes: 'EB Garamond', sans-serif;
+    --letras_pequeñas: 'Nanum Myeongjo', sans-serif;
+    --navegacion: 'Orbitron', sans-serif;
+    --subtitulos: 'Phudu', sans-serif;
+
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --borde_nav:#9799A6;
+    --color_Hueso: #F0ECE3;
+    --color_ceniza_negra: #272528;
+
+}
