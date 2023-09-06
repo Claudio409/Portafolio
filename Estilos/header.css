@@ -1,3 +1,6 @@
+head{
+width: 940px;
+}
 .header_main{
     background-color: var(--negro);
 }
@@ -15,6 +18,8 @@
    font-family: var(--letras_grandes);
    font-size: 2rem;
    color: var(--blanco);
+   animation: coloresEnSucesion 5s infinite;
+   animation-timing-function: cubic-bezier(0.4, 0, 0.02, 0.89);
 }
 .nav_main{
     text-align: center;
@@ -33,4 +38,12 @@
     font-size: 1.2rem;
    /* margin-bottom: 10px;*/ /*para celulares*/
 
+}
+
+/*navegacion*/
+.nav_link:hover{
+    transform: scale(.8);
+    transition: 200ms;
+    border-image: linear-gradient(to right, #1A9DAD, #38E094, #AD1A68) 1;
+    animation: bordeDecolor 2s infinite ;
 }

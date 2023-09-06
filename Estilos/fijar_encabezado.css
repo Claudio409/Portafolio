@@ -1,0 +1,15 @@
+.vacio{
+    height: 90px;
+}
+.animacion_header_main{
+    width: 100%;
+    position: fixed;
+    background-color: var(--negro);
+    z-index: 10;
+}
+.icon_nombre{
+    margin-left: 4rem;
+}
+.nav_main{
+    margin-right: 6dvh;
+}

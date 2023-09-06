@@ -9,23 +9,29 @@
         <link rel="stylesheet" href="../Estilos/font-style.css">
         <link rel="stylesheet" href="../Estilos/header.css">
         <link rel="stylesheet" href="../Estilos/AboutMe_styles.css">
-
+        <link rel="stylesheet" href="../Estilos/styles_animation.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="/Estilos/class_utility.css">
+        <link rel="stylesheet" href="/Estilos/fijar_encabezado.css">
     </head>
     <body>
         <header class="header_main">
-            <div class="container">
-                <h1 class="icon_nombre">
-                    <strong class="symbol_icon"><</strong> Claudio Ramirez <strong class="symbol_icon">/></strong>
-                </h1>
-                <nav class="nav_main">
-                        <a href="#sobreMi" target="_self" class="nav_link">Sobre mi</a></li>
-                        <a href="#skills" target="_self" class="nav_link">Skills</a></li>
-                        <a href="#hobbies" target="_self" class="nav_link">Hobbies</a></li>
-                        <a href="#formacion" target="_self" class="nav_link">Formación</a></li>
-                        <a href="#proyectos" target="_self" class="nav_link">Proyectos</a></li>
-                        <a href="#contacto" target="_self" class="nav_link">Contacto</a></li>
-                </nav>
+            <div class="vacio">
+                <div class="container animacion_header_main">
+                    <h1 class="icon_nombre">
+                        <strong class="symbol_icon"><</strong> Claudio Ramirez <strong class="symbol_icon">/></strong>
+                    </h1>
+                    <nav class="nav_main">
+                            <a href="#sobreMi" target="_self" class="nav_link">Sobre mi</a></li>
+                            <a href="#skills" target="_self" class="nav_link">Skills</a></li>
+                            <a href="#hobbies" target="_self" class="nav_link">Hobbies</a></li>
+                            <a href="#formacion" target="_self" class="nav_link">Formación</a></li>
+                            <a href="#proyectos" target="_self" class="nav_link">Proyectos</a></li>
+                            <a href="#contacto" target="_self" class="nav_link">Contacto</a></li>
+                    </nav>
+                </div>
             </div>
+           
             
         </header>
         <main>
@@ -38,8 +44,34 @@
                             <p class="text_sobreMi_mas">
                                 Estas palabras son la base de lo que tratato de trasmitir mi familia y de lo que logre recopilar durante estos años de vida. Actualmente estoy cursando el sexto ciclo de Ingeniería Química en la Universidad Nacional de Piura - Perú</p>
                         </div>
-                        <img src="../img/ME.jpg" alt="Autoretrato" class="img_me">
+                        <div>
+                            <img src="../img/ME.jpg" alt="Autoretrato" class="img_me animation_img_me">
+                        </div>
                 </div>
+                <nav class="iconos_redes_sociales">
+                    <ul class="iconos_redes_sociales_list">
+                        <li class="icon icon_github"><a href="https://github.com/Claudio409" target="_blank">
+                                <i class="fa-brands fa-github icon_github"></i>
+                                <h3 class="icon_name">Github</h3>
+                            </a>
+                        </li>
+                        <li class="icon icon_linkedin"><a href="https://www.linkedin.com/in/claudio-ramirez-maza/" target="_blank" class="icon_linkedin">
+                                <i class="fa-brands fa-linkedin icon_linkedin"></i>
+                                <h3 class="icon_name">Linkedin</h3>
+                            </a>
+                        </li>
+                        <li class="icon icon_instagram"><a href="https://www.instagram.com/lmao_lol430/" target="_blank">
+                            <i class="fa-brands fa-instagram icon_instagram"></i>
+                            <h3 class="icon_name">Instagram</h3>
+                            </a>
+                        </li>
+                        <li class="icon icon_curriculo"><a href="../Estilos/Curriculo.pdf" target="_blank" class="icon_curriculo">
+                            <i class="fa-solid fa-file icon_curriculo"></i>
+                            <h3 class="icon_name">Curriculo</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
             <section id="skills"></section>
             <section id="hobbies"></section>
@@ -49,5 +81,7 @@
         </main>
         <footer></footer>
         <script type="module" src="../animaciones/animation_text.js"></script>
+        <script src="https://kit.fontawesome.com/ac14ecde38.js" crossorigin="anonymous"></script>
+        <script type='module' src="/animaciones/transiciones.js"></script>
     </body>
 </html>

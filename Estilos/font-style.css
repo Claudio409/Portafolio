@@ -9,5 +9,14 @@
     --borde_nav:#9799A6;
     --color_Hueso: #F0ECE3;
     --color_ceniza_negra: #272528;
+    /*Colores complementarios*/
+    --color_celeste_oscuro: #1A9DAD;
+    --color_plomo: #6C7D80;
+    --color_verde_celestoso: #38E094;
+    --color_rosado_claro: #E47275;
+    --color_rosado_oscuro: #AD1A68;
+
+    --color_azul_electrico:#0A66C2;
+    --color_amarillo_patito:#FED373;
 
 }

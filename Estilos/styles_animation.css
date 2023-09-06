@@ -1,0 +1,25 @@
+@keyframes coloresEnSucesion{
+    0%{color: var(--color_celeste_oscuro);}
+    30%{color: var(--color_plomo);}
+    50%{color: var(--color_verde_celestoso);}
+    80% {color: var(--color_rosado_claro);}
+    100% {color: var(--color_rosado_oscuro);}
+}
+@keyframes bordeDecolor{
+    0% {
+        border-image-source: linear-gradient(150deg, #1A9DAD, #38E094, #AD1A68);
+    }
+    25% {
+        border-image-source: linear-gradient(150deg, #AD1A68, #1A9DAD, #38E094);
+    }
+    50% {
+        border-image-source: linear-gradient(150deg, #38E094, #AD1A68, #1A9DAD);
+    }
+    75% {
+        border-image-source:linear-gradient(150deg, #1A9DAD, #38E094, #AD1A68);
+    }
+    100% {
+        border-image-source: linear-gradient(150deg, #AD1A68, #1A9DAD, #38E094);
+    }
+}
+

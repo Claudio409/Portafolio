@@ -39,4 +39,59 @@
     width: auto;
     padding: 1rem .5rem;
     border-radius: 2rem;
+    z-index: 5;
 }
+
+
+
+/*Iconos de Redes sociales*/
+.iconos_redes_sociales{
+    width: 70%;
+    padding: 0 0 2rem 0;
+ }
+ .iconos_redes_sociales_list{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ 
+ }
+ .icon{
+     scale: 1.8;
+ }
+ .icon i{
+     display: flex;
+     justify-content: center;
+     padding: 0 0 .5rem 0;
+     scale: 2.2;
+ }
+ .icon a{
+     text-decoration: none;
+     color: var(--color_Hueso);
+ }
+ 
+ /*Estilos de iconos*/
+ .icon_github:hover{
+     transform: scale(.8);
+     transition: 400ms;
+ }
+ .icon_linkedin:hover{
+     transform: scale(.8);
+     transition: 400ms;
+     color: var(--color_azul_electrico);
+     
+ }
+ .icon_instagram:hover {
+     transform: scale(.8);
+     transition: 400ms;
+     background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ .icon_curriculo:hover{
+     transform: scale(.8);
+     transition: 400ms;
+     color: var(--color_amarillo_patito);
+ }
+ .icon_name{
+     font-family: var(--letras_grandes);
+ }
