@@ -1,0 +1,90 @@
+.conteniner_skills{
+    background-color: var(--color_ceniza_negra_3);
+    padding-bottom: 12rem;
+}
+.skills{
+    padding: 1rem 10rem;
+}
+.title_skills{
+    padding: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--subtitulos);
+    font-weight: bold;
+    color: var(--blanco);
+}
+.ul_skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 40rem;
+}
+
+.li_skill{
+    width: 18%;
+    height: 11vw;
+    margin: 1.5rem;
+    background-color: var(--negro);
+    border-radius: .8rem;
+    box-shadow: 2px 2px 4px black
+}
+
+/*Estilos de lo de dentro*/
+.li_skill i{
+    display: flex;
+    font-size: 8vw;
+    justify-content: center;
+    color: var(--color_Hueso);
+    padding: 3%;
+}
+.name_skill{
+    font-size: 1.5vw;
+    text-align: start;
+    font-weight: bold;
+    color: var(--color_Hueso);
+    padding: 3%;
+}
+/*animaciones de hover*/
+.logo_skill:hover,.logo_skill:hover .fa-solid, .logo_skill:hover .name_skill {
+    color: black;
+}
+.logo_skill:hover,.logo_skill:hover .fa-brands, .logo_skill:hover .name_skill {
+    color: black;
+}
+.li_skill:hover{
+    transform: scale(1.2);
+    transition: 400ms;
+    cursor: none;
+    box-shadow: 5px 5px 10px black
+}
+.rcoder:hover{
+    background: var(--color_R);
+}
+.c:hover{
+    background: var(--color_c);
+}
+.python:hover{
+    background: var(--color_python);
+}
+.visualbasic:hover{
+    background: var(--color_Vb);
+}
+.html5:hover{
+    background: var(--color_html);
+}
+.css3:hover{
+    background: var(--color_css3);
+}
+.javascript:hover{
+    background: var(--color_js);
+}
+.node_js:hover{
+    background: var(--color_node);
+}
+.figma:hover{
+    background: var(--color_figma);
+}
+.quimica:hover{
+    background: var(--color_quimica);
+}

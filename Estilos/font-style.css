@@ -10,6 +10,7 @@
     --color_Hueso: #F0ECE3;
     --color_ceniza_negra:#272528;
     --color_ceniza_negra_2:#292a2bf0;
+    --color_ceniza_negra_3:#292a2be0;
     /*Colores complementarios*/
     --color_celeste_oscuro: #1A9DAD;
     --color_plomo: #6C7D80;
@@ -19,5 +20,16 @@
 
     --color_azul_electrico:#0A66C2;
     --color_amarillo_patito:#FED373;
+    /*Colores de skills*/
+    --color_js: #F7DF1E;
+    --color_python:linear-gradient(to top right, #3CBB75, #FFE873);
+    --color_figma: linear-gradient(to top right, #0ACF83, #1EA7FD, #FF7262, #A259FF);
+    --color_html:linear-gradient(to top left,  #E44D26, #F16529);
+    --color_css3: linear-gradient(to top left,  #0073CF, #1E90FF);
+    --color_c:linear-gradient(to top right,  #68217A, #9B4F96);
+    --color_R: linear-gradient(to right, #7F52FF, #0095D5);
+    --color_Vb:#004f9dba;
+    --color_quimica: linear-gradient(to right, #666666, #CCCCCC, #FFFFFF);
+    --color_node:linear-gradient(to top right,  #061f11, #73ff83);
 
 }

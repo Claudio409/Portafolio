@@ -6,7 +6,7 @@ function animacionDeCaida(target){
     ScrollReveal().reveal(capturarClass(target), {
         origin: 'top',
         distance: '50px',
-        delay:11000, 
+        delay:10000, 
         duration: 1000,
         reset:true});
 }
