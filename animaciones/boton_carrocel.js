@@ -1,29 +1,6 @@
-const boton_izquirdo = document.getElementById('boton_iquierdo');
-const boton_derecho = document.getElementById('boton_derecho');
-const anchoTarjeta= document.getElementById('tarjeta').offsetWidth;
-const carrosel = document.getElementById('carrosol');
-const tarjetas = document.querySelectorAll('.tarjeta');
-/*Cidgo para pasarlo pero sin q sea la primera tarjeta
-izquierdo.addEventListener('click', ()=>{
-    const tarjetaAEsconder = tarjetas[indiceActual];
-    tarjetaAEsconder.style.transform = 'scale(.9)';
-    tarjetaAEsconder.classList.add('fondo_tajetas_soft_skill');
-    setTimeout(()=>{
-        const newposition_izq = carrosel.scrollLeft  + anchoTarjeta;
-        carrosel.scrollTo({
-            left: newposition_izq,
-            behavior:"smooth",
-        });
-        setTimeout(()=>{
-            tarjetaAEsconder.style.transform = 'scale(1)';
-            tarjetaAEsconder.classList.remove('fondo_tajetas_soft_skill');
-        },300);
-        indiceActual = (indiceActual+1)%tarjetas.length;
-    }, 300)
-});*/
+import { capturarAnchodeTarjeta, capturarID, capturarTodasClass } from "./funciones_captura_id_class.offwidth.js";
 
-let indiceActual = 0;
-function boton_carrosel(izquierdo, derecho, cards){
+function boton_carrosel(carrosel, izquierdo, derecho,anchoDetarjeta, cards, fondo){
     izquierdo.addEventListener('click', ()=>{
         // Encuentra la primera tarjeta visible en la pantalla
         let tarjetaAEsconder;
@@ -39,11 +16,11 @@ function boton_carrosel(izquierdo, derecho, cards){
         if (tarjetaAEsconder) {
             tarjetaAEsconder.style.transform = 'scale(.4)';
             tarjetaAEsconder.style.transition = '400ms';
-            tarjetaAEsconder.classList.add('fondo_tajetas_soft_skill');
+            tarjetaAEsconder.classList.add(fondo);
         }
         
         setTimeout(()=>{
-            let newposition_izq = carrosel.scrollLeft  + anchoTarjeta;
+            let newposition_izq = carrosel.scrollLeft  + anchoDetarjeta;
             if (newposition_izq >= carrosel.scrollWidth - carrosel.clientWidth) {
                 newposition_izq = 0;
             }
@@ -55,7 +32,7 @@ function boton_carrosel(izquierdo, derecho, cards){
             setTimeout(()=>{
                 if (tarjetaAEsconder) {
                     tarjetaAEsconder.style.transform = 'scale(1)';
-                    tarjetaAEsconder.classList.remove('fondo_tajetas_soft_skill');
+                    tarjetaAEsconder.classList.remove(fondo);
                 }
             },400);
         }, 400)
@@ -72,10 +49,10 @@ function boton_carrosel(izquierdo, derecho, cards){
     if (tarjetaAEsconder) {
             tarjetaAEsconder.style.transform = 'scale(.4)';
             tarjetaAEsconder.style.transition = '400ms';
-            tarjetaAEsconder.classList.add('fondo_tajetas_soft_skill');
+            tarjetaAEsconder.classList.add(fondo);
     }
     setTimeout(()=>{
-        let newposition_der = carrosel.scrollLeft  - anchoTarjeta;
+        let newposition_der = carrosel.scrollLeft  - anchoDetarjeta;
         if (newposition_der < 0) {
             newposition_der = carrosel.scrollWidth - carrosel.clientWidth;
         }
@@ -86,11 +63,12 @@ function boton_carrosel(izquierdo, derecho, cards){
         setTimeout(()=>{
             if (tarjetaAEsconder) {
                 tarjetaAEsconder.style.transform = 'scale(1)';
-                tarjetaAEsconder.classList.remove('fondo_tajetas_soft_skill');
+                tarjetaAEsconder.classList.remove(fondo);
             }
         },400);
     }, 400);
     });
 }
-
-boton_carrosel(boton_izquirdo, boton_derecho, tarjetas);
+//boton_carrosel(carrosel, boton_izquirdo, boton_derecho, anchod de tarjeta, clase tarjeta, fondo)
+boton_carrosel(capturarID('carrosol'),capturarID('boton_iquierdo'), capturarID('boton_derecho'), capturarAnchodeTarjeta('tarjeta'),capturarTodasClass('.tarjeta'),'fondo_tajetas_soft_skill');
+boton_carrosel(capturarID('Carrosel_hobbies'),capturarID('Boton_izquierdo_hobbies'),capturarID('boton_derecho_hobbies'),capturarAnchodeTarjeta('card_ancho'),capturarTodasClass('.card'),'fondo_cards');

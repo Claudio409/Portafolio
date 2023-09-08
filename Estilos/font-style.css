@@ -33,5 +33,5 @@
     --color_quimica: linear-gradient(to right, #666666, #CCCCCC, #FFFFFF);
     --color_node:linear-gradient(to top right,  #061f11, #73ff83);
     --color_softskill: linear-gradient(to top right, #FED849, #555555, #EEEEEE);
-
+    --color_hobies: linear-gradient(to top right,#A259FF , #0ACF83, #FF7262, #1EA7FD);
 }
