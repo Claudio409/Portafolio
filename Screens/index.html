@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="/Estilos/fijar_encabezado.css">
         <link rel="stylesheet" href="/Estilos/masDeMi.css">
         <link rel="stylesheet" href="/Estilos/Skills.css">
+        <link rel="stylesheet" href="/Estilos/SolfSkills.css">
     </head>
     <body>
         <header class="header_main">
@@ -26,7 +27,7 @@
                     <nav class="nav_main">
                             <a href="#masDeMi" target="_self" class="nav_link">Sobre mi</a></li>
                             <a href="#skills" target="_self" class="nav_link">Skills</a></li>
-                            <a href="#hobbies" target="_self" class="nav_link">Hobbies</a></li>
+                            <a href="#SolfSkills" target="_self" class="nav_link">Sofs kills & Hobbies</a></li>
                             <a href="#formacion" target="_self" class="nav_link">Formación</a></li>
                             <a href="#proyectos" target="_self" class="nav_link">Proyectos</a></li>
                             <a href="#contacto" target="_self" class="nav_link">Contacto</a></li>
@@ -134,7 +135,96 @@
                     </ul>
                 </div>
             </section>
-            <section id="hobbies"></section>
+            <section id="SolfSkills" class="container_section_softskill">
+                <h2 class="title_softskill">Soft Skills</h2>
+                <section class="section_SolfSkills">
+                    <div class="div_SolfSkills_icon">
+                        <div class="mayo_menor_icon izquierda_icon" id="boton_iquierdo">
+                            <i class="fa-solid fa-less-than icon_mayor"></i>
+                        </div>
+                        <ul class="Tarjetas_moviles" id="carrosol">
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-stopwatch icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Puntualidad</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-brands fa-wolf-pack-battalion icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Perseverancia</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-users-gear icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Trabajo en Equipo</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-regular fa-comments icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Empatía</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-sitemap icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Organización</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-regular fa-lightbulb icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Resolución de Problemas</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-regular fa-flag icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Liderazgo</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-brain icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Pensamiento Crítico</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-palette icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Creatividad</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-person-running icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Flexibilidad</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-puzzle-piece icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Adaptabilidad</h3>
+                                </div>
+                            </li>
+                            <li class="tarjeta" id="tarjeta">
+                                <div class="container_tarjeta">
+                                    <i class="fa-solid fa-person-rays icon_sotfskill"></i>
+                                    <h3 class="title_tarjeta">Paciencia</h3>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mayo_menor_icon derecha_icon" id="boton_derecho">
+                            <i class="fa-solid fa-greater-than icon_menor"></i>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section id="Hobbies" class="hobbies_section">
+                
+            </section>
             <section id="formacion"></section>
             <section id="proyectos"></section>
             <section id="contacto"></section>
@@ -143,5 +233,6 @@
         <script type="module" src="../animaciones/animation_text.js"></script>
         <script src="https://kit.fontawesome.com/ac14ecde38.js" crossorigin="anonymous"></script>
         <script type='module' src="/animaciones/transiciones.js"></script>
+        <script src="/animaciones/boton_carrocel.js" type="module"></script>
     </body>
 </html>

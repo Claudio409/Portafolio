@@ -1,0 +1,111 @@
+.container_section_softskill{
+    background: var(--color_ceniza_negra_4);
+}
+.section_SolfSkills{
+    text-align: center;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_softskill{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--blanco);
+    font-weight: bold;
+    font-family: var(--subtitulos);
+}
+.div_SolfSkills_icon{
+    margin: 1rem;
+}
+.div_SolfSkills_icon,.Tarjetas_moviles{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.div_SolfSkills_icon, .Tarjetas_moviles {
+    -ms-overflow-style: none; /* IE y Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.div_SolfSkills_icon::-webkit-scrollbar, .Tarjetas_moviles::-webkit-scrollbar {
+    display: none;
+}
+
+.tarjeta{
+    scroll-snap-align: start;
+    background: var(--negro);
+}
+.tarjeta, .mayo_menor_icon{
+    border-radius: 1rem;
+}
+.mayo_menor_icon{
+    width: 3rem;
+    height: 2rem;
+    padding: 1.5rem;
+    transform: translateY(+148%);
+    background-color: var(--blanco);
+    cursor: pointer;
+    
+}
+.icon_mayor, .icon_menor{
+    font-size: 2rem;
+}
+.izquierda_icon{
+    position: absolute;
+    left: 3rem;
+    z-index: 9;
+}
+.derecha_icon{
+    position: absolute;
+    right: 3rem;
+    z-index: 9;
+}
+.tarjeta{
+    padding: 6rem 0;
+    z-index: 8;
+    width: calc(100vw / 3 - 6rem);
+    height: 3rem;
+    margin: 3rem 0;
+    align-items: center;
+}
+
+/*stilos de tarjetas*/
+.container_tarjeta{
+    position: relative;
+    bottom: 5rem;
+    cursor: pointer;
+}
+.icon_sotfskill{
+    font-size: 9rem;
+    color: var(--color_Hueso);
+}
+.title_tarjeta{
+    font-size: 2rem;
+    font-family: var(--letras_pequeñas);
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 2rem;
+    color: var(--color_Hueso);
+}
+/*hovers*/
+.tarjeta:hover{
+    background: var(--color_softskill);
+    box-shadow: 5px 5px 10px var(--negro);
+}
+.mayo_menor_icon:hover{
+    transform: translateY(+148%) scale(1.2);
+    box-shadow: 0 3px 6px var(--negro);
+}
+
+/*active*/
+.mayo_menor_icon:active{
+    transform: scale(1) translateY(+148%);
+}
+/*clase para js*/
+.fondo_tajetas_soft_skill{
+    background: var(--color_softskill);
+}

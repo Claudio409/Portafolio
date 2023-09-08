@@ -11,6 +11,7 @@
     --color_ceniza_negra:#272528;
     --color_ceniza_negra_2:#292a2bf0;
     --color_ceniza_negra_3:#292a2be0;
+    --color_ceniza_negra_4: #292a2bcf;
     /*Colores complementarios*/
     --color_celeste_oscuro: #1A9DAD;
     --color_plomo: #6C7D80;
@@ -31,5 +32,6 @@
     --color_Vb:#004f9dba;
     --color_quimica: linear-gradient(to right, #666666, #CCCCCC, #FFFFFF);
     --color_node:linear-gradient(to top right,  #061f11, #73ff83);
+    --color_softskill: linear-gradient(to top right, #FED849, #555555, #EEEEEE);
 
 }
