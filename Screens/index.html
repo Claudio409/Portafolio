@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="/Estilos/hobbies.css">
         <link rel="stylesheet" href="/Estilos/formacion.css">
         <link rel="stylesheet" href="/Estilos/proyectos.css">
+        <link rel="stylesheet" href="/Estilos/Contacto.css">
+        <link rel="stylesheet" href="/Estilos/footer.css">
     </head>
     <body>
         <header class="header_main">
@@ -324,13 +326,66 @@
                     </div>
                 </div>
             </section>
-            <section id="contacto"></section>
+            <section id="contacto" class="contacto">
+                <h2 class="title_contacto">Contacto por Email</h2>
+                <div class="paddin_div">
+                    <div class="container_formulario_cache_enviar">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="container_form_gobal">
+                            <input type="hidden" name="access_key" value="011e3b46-1b5a-43ec-bd41-20874937d313">
+                                <form class="formulario flex flex--column">
+                                    <fieldset>
+                                        <legend class="form__label">Información básica</legend>
+                                        <div class="input-container">
+                                            <input name="name" id="name" class="input" type="text"  required data-tipo="nombre" pattern="[\s\S]{3,30}">
+                                            <label class="input-label" for="name">Nombre</label>
+                                            <span class="input-message-error">Este campo no es valido</span>
+                                        </div>
+                                        <div class="input-container">
+                                            <input name="email" id="email" class="input" type="email" required data-tipo="email">
+                                            <label class="input-label" for="email">Email</label>
+                                            <span class="input-message-error">Este campo no es valido</span>
+                                        </div>
+                                        <div class="input-container">
+                                            <input name="phoneNumber" id="phoneNumber" class="input" type="text" required pattern="\d{9}" maxlength="9"  data-tipo="numero">
+                                            <label class="input-label" for="phoneNumber">Número telefónico</label>
+                                            <span class="input-message-error">Este campo no es valido</span>
+                                        </div>
+                                        <div class="input-container texto_area_full">
+                                            <div class="container_texto_area">
+                                                <legend class="form__label">Comentario</legend>
+                                                <textarea name="text" id="mensaje_formaulario" class="mensaje_formaulario"cols="30" rows="10" required  title="Ingrese al menos 20 caracteres." pattern="[\s\S]{10,80}" data-tipo="text"></textarea>
+                                                <label class="input-label_text" for="text">Mensaje</label>
+                                                <span class="input-message-error">Este campo no es valido</span>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="container_captcha_submit">
+                                        <div>
+                                            <div class="h-captcha" data-captcha="true" required></div>
+                                            <button type="submit" class="submin">Enviar</button>
+                                        </div>
+                                    </div>
+                                </form>
+                        </form>     
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer class="footer_main">
+            <section class="section_footer">
+                <div class="div_footer">
+                    <p class="creditos">"Diseñado, Construido y hecho con" <span class="icon_corazon">💙</span>"por Claudio Ramirez Maza" </p>
+                    <p class="copy">Copyright © 2023 | All Rights Reserved</p>
+                </div>
+            </section>
+        </footer>
         <script type="module" src="../animaciones/animation_text.js"></script>
         <script src="https://kit.fontawesome.com/ac14ecde38.js" crossorigin="anonymous"></script>
         <script type='module' src="/animaciones/transiciones.js"></script>
         <script src="/animaciones/boton_carrocel.js" type="module"></script>
         <script src="/animaciones/funciones_captura_id_class.offwidth.js" type="module"></script>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+        <script type="module" src="/animaciones/app.js"></script>
+        <script type="module" src="/animaciones/validaciones.js"></script>
     </body>
 </html>

@@ -1,0 +1,108 @@
+.contacto{
+    background: var(--color_ceniza_negra_7);
+    padding-bottom: 3rem;
+}
+.paddin_div{
+    padding: 0 31vw;
+}
+.title_contacto{
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0 2rem 3rem;
+    font-family: var(--subtitulos);
+    font-weight: bold;
+    color: var(--color_Hueso);
+}
+.form__label{
+    font-size: 1.5rem;
+    font-family: var(--letras_pequeñas);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.container_formulario_cache_enviar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color_Hueso);
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px var(--negro);
+    width: 90%;
+    max-width: 34vw;
+    min-width: 36vw;
+    padding: 1.75rem;
+    box-sizing: border-box;
+}
+.input{
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--color_ceniza_negra);
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+    background-color: var(--color_Hueso);
+}
+.input-label{
+    position: relative;
+    top: -28px;
+    left: 0.5rem;
+    font-size: 1rem;
+    transition: all 0.25s;
+    color: var(--color_ceniza_negra_7);
+}
+.input-message-error{
+    visibility: hidden;
+}
+
+.mensaje_formaulario{
+    display: flex;
+    padding: 2rem 3rem;
+    resize: none;
+    margin: 1rem 1rem 1rem 2rem;
+    border: none;
+}
+.input-label_text{
+    position: relative;
+    top: -12.5rem;
+    left: 4.9rem;
+    font-size:1rem;
+    transition: all 0.25s;
+    color: var(--color_ceniza_negra_7);
+}
+.input:focus + .input-label{
+    top: -3rem;
+
+}
+.mensaje_formaulario:focus + .input-label_text {
+    top: -14rem;
+    left: 3.9rem;
+}
+.input:focus, .mensaje_formaulario:focus{
+    outline: none;
+}
+
+/*estilo de captcha*/
+.container_captcha_submit{
+    display: flex;
+    justify-content: center;
+}
+.submin{
+    padding: 1rem 4rem;
+    margin-left: 3rem;
+    background-color: var(--color_ceniza_negra);
+    color: var(--color_Hueso);
+    border-radius: 1rem;
+    box-shadow: 1px 5px 8px var(--negro);
+    font-size: 1.4rem;
+    font-family: var(--navegacion);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.submin:hover{
+    transform: scale(1.1) translateY(.2rem);
+    transition: 500ms;
+    background-color: var(--blanco);
+    color: var(--color_ceniza_negra);
+
+}
+.texto_area_full{
+    display: flex;
+    justify-content: center;
+}

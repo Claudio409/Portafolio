@@ -38,6 +38,11 @@
     padding: 3vh 3vw;
     margin-bottom: 5vh;
 }
+.unp:hover, .alura:hover{
+    transform: scale(1.04);
+    transition: 200ms;
+    box-shadow: 8px 5px 8px var(--negro);
+}
 .alura{
     padding: 3vh 4vw
 }
@@ -50,8 +55,6 @@
 }
 .name_quimica{
    transform: translateY(-4vh);
-}
-.name_alura{
 }
 .formacion_fechas{
     font-size: 1.3rem;
