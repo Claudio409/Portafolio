@@ -1,4 +1,4 @@
-html.sr .animation_img_me, html.sr .nav_link, html.sr .text_hola, html.sr .itle_sobreMi, html.sr .text_sobreMI, html.sr .text_sobreMi_mas{
+html.sr .animation_img_me, html.sr .nav_link, html.sr .text_hola, html.sr .itle_sobreMi, html.sr .text_sobreMI, html.sr .text_sobreMi_mas, .container_one_img, .container_two_img{
     visibility: hidden;
 
 }

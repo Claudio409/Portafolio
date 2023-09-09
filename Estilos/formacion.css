@@ -1,0 +1,64 @@
+.section_formacion{
+    background: var(--color_ceniza_negra_5);
+}
+.title_formacion{
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--subtitulos);
+    font-weight: bold;
+    padding: 3rem 0 1rem 0;
+    color: var(--color_Hueso);
+}
+.linea{
+    display: block;
+    height: 0.25vh;
+    background: var(--color_Hueso);
+    margin: 0 5%;
+}
+.container_one_img{
+    padding: 0 8vw 0 3vw;
+}
+.container_two_img{
+    padding: 0 0 0 7vw;
+}
+.container_imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10vh 9vw;
+}
+
+.unp, .alura{
+    width: 25vw;
+    background: var(--blanco);
+    border-radius: 2rem;
+    box-shadow: 1px 2px 5px var(--negro);
+}
+.unp{   
+    padding: 3vh 3vw;
+    margin-bottom: 5vh;
+}
+.alura{
+    padding: 3vh 4vw
+}
+.name_institucion{
+    font-size: 2rem;
+    font-family: var(--navegacion);
+    font-weight: bold;
+    color: var(--blanco);
+    margin: 0 1rem;
+}
+.name_quimica{
+   transform: translateY(-4vh);
+}
+.name_alura{
+}
+.formacion_fechas{
+    font-size: 1.3rem;
+    font-family: var(--letras_pequeñas);
+    color: var(--color_Hueso);
+    margin: 0 1rem;
+}
+.fehcas_quimica{
+    transform: translateY(-3vh);
+}

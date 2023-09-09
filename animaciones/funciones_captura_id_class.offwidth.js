@@ -10,9 +10,13 @@ function capturarAnchodeTarjeta(nombre){
     const target = document.getElementById(nombre).offsetWidth;
     return target;
 }
-
+function capturarClass(target){
+    const clase = document.getElementsByClassName(target);
+    return clase;
+}
 export {
     capturarID,
     capturarTodasClass,
     capturarAnchodeTarjeta,
+    capturarClass,
 }
