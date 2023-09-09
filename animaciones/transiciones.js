@@ -1,5 +1,4 @@
-import { capturarClass } from "./funciones_captura_id_class.offwidth.js";
-
+import { capturarAnchodeTarjeta, capturarClass } from "./funciones_captura_id_class.offwidth.js";
 function animacionDeCaida(target){
     ScrollReveal().reveal(capturarClass(target), {
         origin: 'top',
@@ -36,6 +35,10 @@ function aparecer_con_rotacion(target){
         duration: 1000,
     });
 }
+/*function aparecer_desde_la_derecha(target){
+
+}*/
+
 
 
 /*animaciones*/

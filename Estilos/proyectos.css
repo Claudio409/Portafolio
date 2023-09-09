@@ -1,0 +1,88 @@
+.section_proyectos{
+    background: var(--color_ceniza_negra_6);
+    padding-bottom: 4rem;
+}
+.tittle_proyectos{
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--color_Hueso);
+    font-family: var(--subtitulos);
+    font-weight: bold;
+}
+.container_proyectos{
+    display: flex;
+    justify-content: center;
+}
+.container_img_cobertor{
+    position: relative;
+    width: 743px;  
+    height: 410px;
+    background: var(--color_ceniza_negra_4);
+    overflow: hidden;
+    border: 10px solid var(--color_ceniza_negra_4);
+    border-radius: 1rem;
+    position: relative;
+}
+.img_encriptar{
+    width: 743px;  
+    height: 410px;
+    border-radius: 1rem;  
+}
+/*hacer un cobertor*/
+.cobertor{
+    width: 743px;  
+    height: 410px;
+    backdrop-filter: blur(10px);
+    /*esto es necesario para el cobertor y el hover va sobre todo el div q cube tanto al cobertor como la imagen*/
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 0.8s ease; 
+}
+.title_cobertor{
+    font-size: 2.5rem;
+    text-align: start;
+    font-family: var(--navegacion);
+    padding: 5rem 0 1rem 2rem;
+    font-weight: 800;
+    color: var(--negro);
+}
+.texto_cobertor{
+    font-size: 1.2rem;
+    padding: .4rem 2em 1rem 2rem;
+    font-family: var(--letras_pequeñas);
+    font-weight: 600;
+}
+.botones_cobertor{
+    text-align: center;
+    padding-top: 3.5rem;
+}
+.url_boton_cobertor{
+    text-decoration: none;
+    color: var(--negro);
+}
+.boton_cobertor{
+    padding: 2vw;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    font-family: var(--subtitulos);
+    font-weight: bold;
+    background-color: var(--color_ceniza_negra);
+    color: var(--color_Hueso);
+    box-shadow: 1px 5px 5px var(--negro);
+}
+.cargar_encriptador{
+    margin-right: 14vw;
+}
+/*hover*/
+.boton_cobertor:hover{
+    background: var(--color_Hueso);
+    color: var(--color_ceniza_negra);
+    position: relative;
+    font-size: 2rem;
+    transition: 300ms;
+}
+.container_img_cobertor:hover .cobertor{
+        left: 0;
+}
