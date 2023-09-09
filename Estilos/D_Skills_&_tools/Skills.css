@@ -19,6 +19,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     height: 40rem;
+    position: relative;
+    z-index: 5;
 }
 
 .li_skill{

@@ -1,0 +1,22 @@
+.footer_main{
+    padding: 1rem 0;
+    background: var(--negro);
+}
+.section_footer{
+    display: flex;
+    justify-content: center;
+    color: var(--blanco);
+    font-family: var(--letras_pequeñas);
+}
+.creditos{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+}
+.copy{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.icon_corazon{
+    display: inline-block;
+    animation: pulso 1s infinite;
+}

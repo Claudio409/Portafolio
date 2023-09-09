@@ -4,6 +4,8 @@
 }
 .paddin_div{
     padding: 0 31vw;
+    position: relative;
+    z-index: 5;
 }
 .title_contacto{
     font-size: 3rem;
