@@ -5,7 +5,7 @@ function animacionDeCaida(target){
         distance: '50px',
         delay:10000, 
         duration: 1000,
-        reset:true});
+        reset:false});
 }
 function aparecerLetfAndRight(target){
     ScrollReveal().reveal(capturarClass(target),{

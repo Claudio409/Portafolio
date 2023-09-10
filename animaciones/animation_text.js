@@ -145,3 +145,4 @@ particlesJS(
         "retina_detect": true
       }
 );
+

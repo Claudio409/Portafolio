@@ -1,0 +1,332 @@
+@media screen and (min-width: 280px) and (max-width: 540px) {
+    .vacio{
+        height: 18rem;
+    }
+    .animacion_header_main{
+        position: initial;
+    }
+    .header_main .container{
+        display: inline-block;
+        padding: 0;
+    }
+    .icon_nombre{
+        text-align: center;
+        margin-left:0;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .nav_main{
+        display: inline;
+        position: relative;
+        z-index: 5;
+    }
+    .nav_link{
+        padding: .2rem 0;
+        margin: 0 .3rem .7rem .3rem;
+        font-size: 1rem;
+    }
+    .sobreMi{
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    .container_text{
+        margin: 0;
+    }
+    .title_sobreMi{
+        font-size: 3rem;
+    }
+    .text_sobreMI{
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .container_text_img{
+        display: flex;
+        flex-direction: column;
+    }
+    .text_sobreMi_mas{
+        font-size: 1.2rem;
+        padding-top: 13rem;
+    }
+    
+    /**/
+    .img_me{
+        height: auto;
+        width: 13rem;
+        position: absolute;
+        top: 27rem;
+        left: 5rem;
+    }
+    /**/
+    .iconos_redes_sociales{
+        width: 100%;
+        padding: 6rem 0 3rem 0;
+    }
+    .icon{
+        scale: none;
+    }
+    .skills{
+        padding: 0;
+    }
+    .ul_skills{
+        height: 30rem;
+    }
+    .li_skill{
+        width: 41%;
+        height: 22%;
+        margin: .5rem 1rem;
+    }
+    .li_skill i{
+        font-size: 5rem;
+    }
+    .name_skill{
+        padding: 0 0 0 9%;
+        transform: translateY(-6px);
+        font-size: 1.4rem;
+    }
+
+    .div_masdeMi{
+        padding: 2rem 0;
+    }
+    .containe_masdeMi{
+        display: inline-block;
+    }
+    .texto_masdeMi{
+        margin: 2rem 1rem;
+        font-size: 1.4rem;
+    }
+    .firma_masdeMi{
+        top:0;
+        right: 0;
+        height: 9rem;
+    }
+
+    /*softSkilss*/
+    .section_SolfSkills{
+        padding: 0;
+    }
+    .div_SolfSkills_icon, .Tarjetas_moviles{
+        gap: .2rem;
+    }
+    .tarjeta{
+        padding: 6rem 0;
+        width: calc(100vw / 1 - 3rem);
+    }
+    .title_tarjeta{
+        font-size: 1.5rem;
+    }
+    .mayo_menor_icon{
+        display: none;
+    }
+
+    /*hobbies*/
+    .container_hobies{
+        padding: 0;
+    }
+    .div_hobbies, .hobbies_cards{
+        gap: .2rem;
+        margin-left: .5rem;
+    }
+    .card{
+        width: calc(100vw / 1 - 2rem);
+    }
+    .title_card{
+        font-size: 1.5rem;
+    }
+    .botones_mayor_menor_icon{
+        display: none;
+    }
+    /*formacion*/
+    .container_imgs{
+        padding: 0 1rem;
+        flex-direction: column;
+        padding: 2rem 1rem 4rem 1rem;
+    }
+    .container_one_img{
+        padding: 0;
+        
+    }
+    .unp {
+        width: 21.5rem;
+        padding: 0;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+    .alura {
+        padding: 2rem;
+        width: 17rem;
+        margin-top: 2rem;
+    }
+    .name_institucion{
+        font-size: 1.5rem;
+    }
+    .formacion_fechas{
+        font-size: 1rem;
+        margin-top: .2rem;
+    }
+    /*proyectos*/
+    .container_img_cobertor{
+        border: 4px solid var(--color_ceniza_negra_4);
+        width: 22rem;
+        height: 14rem;
+        border-radius: .5rem;
+    }
+
+    .img_encriptar{
+        border-radius: .5rem;
+    }
+    .img_encriptar, .cobertor{
+        width: 22rem;
+        height: 14rem;
+    }
+    .cobertor{
+        backdrop-filter: blur(5px);
+    }
+    .title_cobertor{
+        font-size: 1.3rem;
+        padding: 1rem 0 1rem 1rem;
+        font-weight: 600;
+    }
+    .texto_cobertor{
+        font-size: .8rem;
+        padding: 0 1em 1rem 2rem;
+        font-weight: 600;
+    }
+    .botones_cobertor{
+        padding-top: 0.7rem;
+        padding: 2vw;
+        border-radius: .3rem;
+    }
+    .boton_cobertor{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .cargar_encriptador {
+        margin-right: 1.5rem;
+    }
+    /*contanto*/
+    .contacto{
+        padding-bottom: 1rem;
+    }
+    .title_contacto{
+        padding: 2rem 0;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .paddin_div{
+        padding: 0;
+    }
+    .container_formulario_cache_enviar{
+        width: auto;
+        max-width: none;
+        min-width: 1px;
+        margin: 1rem;
+        flex-direction: column;
+        box-shadow: 2px 2px 10px var(--negro)
+    }
+    .input-container{
+        width: 79vw;
+    }
+    .input-message-error{
+        display: none;
+    }
+    .form__label{
+        margin: 1rem 0 1rem 0rem
+    }
+    .mensaje_formaulario{
+        margin: 0;
+    }
+    .input-label_text{
+        top: -11.5rem;
+        left: 2.9rem;
+    }
+    .mensaje_formaulario:focus + .input-label_text, .mensaje_formaulario:not(:placeholder-shown) + .input-label_text {
+        top: -13rem;
+    }
+    .creditos{
+        margin: 0 2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        font-size: 18px;
+    }
+
+    /*anular hover*/
+    .nav_link:hover{
+        transform: none;
+        border-image: 1px solid var(--borde_nav);
+        animation: none;
+    }
+    .nav_link:active{
+        transform: scale(.8);
+        transition: 20ms;
+        border-image: linear-gradient(to right, #1A9DAD, #38E094, #AD1A68) 1;
+        animation: bordeDecolor 2s infinite;
+    }
+    .icon_github:hover{
+        transform: none;
+        transition: none;
+    }
+    .icon_github:active{
+        transform: scale(.5);
+        transition: 20ms;
+    }
+    .icon_linkedin:hover {
+        transform: none;
+        transition: none;
+        color: var(--blanco);
+    }
+    .icon_linkedin:active {
+        transform: scale(.5);
+        transition: 20ms;
+        color: var(--color_azul_electrico);
+    }
+    .icon_instagram:hover {
+        transform: none;
+        transition: none;
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .icon_instagram:active {
+        transform: scale(.5);
+        transition: 20ms;
+        background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .icon_curriculo:hover {
+        transform: none;
+        transition: none;
+        color: white;
+    }
+    .icon_curriculo:active {
+        transform: scale(.5);
+        transition: 20ms;
+        color: var(--color_amarillo_patito);
+    }
+    .submin:hover {
+        transform: none;
+        transition: none;
+        background-color: var(--color_ceniza_negra);
+        color: var(--color_Hueso);
+    }
+    .submin:active {
+        transform: scale(1.1) translateY(0.2rem);
+        transition: all 20ms ease 0s;
+        background-color: var(--blanco);
+        color: var(--color_ceniza_negra);
+    }
+    .boton_cobertor:hover {
+        position: relative;
+        font-size: 20px;
+        transition: none;
+        background-color: var(--color_ceniza_negra);
+        color: var(--color_Hueso);
+    }
+    .boton_cobertor:active {
+        background: var(--color_Hueso);
+        color: var(--color_ceniza_negra);
+        position: relative;
+        font-size: 25px;
+        transition: 30ms;
+    }
+    
+  }

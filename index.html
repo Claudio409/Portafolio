@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="styles/proyectos.css">
         <link rel="stylesheet" href="styles/Contacto.css">
         <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/celular.css">
     </head>
     <body>
         <div id="particles-js"></div>
@@ -53,9 +54,7 @@
                                 <p class="text_sobreMi_mas">
                                     Estas palabras son la base de lo que tratato de trasmitir mi familia y de lo que logre recopilar durante estos años de vida. Actualmente estoy cursando el sexto ciclo de Ingeniería Química en la Universidad Nacional de Piura - Perú</p>
                             </div>
-                            <div>
-                                <img src="img/ME.jpg" alt="Autoretrato" class="img_me animation_img_me">
-                            </div>
+                            <img src="img/ME.jpg" alt="Autoretrato" class="img_me animation_img_me">
                     </div>
                     <nav class="iconos_redes_sociales">
                         <ul class="iconos_redes_sociales_list">
@@ -337,24 +336,24 @@
                                         <fieldset>
                                             <legend class="form__label">Información básica</legend>
                                             <div class="input-container">
-                                                <input name="name" id="name" class="input" type="text"  required data-tipo="nombre" pattern="[\s\S]{3,30}">
+                                                <input name="name" id="name" class="input" type="text" placeholder="I" required data-tipo="nombre" pattern="[\s\S]{3,30}">
                                                 <label class="input-label" for="name">Nombre</label>
                                                 <span class="input-message-error">Este campo no es valido</span>
                                             </div>
                                             <div class="input-container">
-                                                <input name="email" id="email" class="input" type="email" required data-tipo="email">
+                                                <input name="email" id="email" class="input" type="email" placeholder="I" required data-tipo="email">
                                                 <label class="input-label" for="email">Email</label>
                                                 <span class="input-message-error">Este campo no es valido</span>
                                             </div>
                                             <div class="input-container">
-                                                <input name="phoneNumber" id="phoneNumber" class="input" type="text" required pattern="\d{9}" maxlength="9"  data-tipo="numero">
+                                                <input name="phoneNumber" id="phoneNumber" class="input" type="text" placeholder="I" required pattern="\d{9}" maxlength="9"  data-tipo="numero">
                                                 <label class="input-label" for="phoneNumber">Número telefónico</label>
                                                 <span class="input-message-error">Este campo no es valido</span>
                                             </div>
                                             <div class="input-container texto_area_full">
                                                 <div class="container_texto_area">
                                                     <legend class="form__label">Comentario</legend>
-                                                    <textarea name="text" id="mensaje_formaulario" class="mensaje_formaulario"cols="30" rows="10" required  title="Ingrese al menos 20 caracteres." pattern="[\s\S]{10,80}" data-tipo="text"></textarea>
+                                                    <textarea name="text" id="mensaje_formaulario"placeholder="" class="mensaje_formaulario"cols="30" rows="10" required  title="Ingrese al menos 20 caracteres." pattern="[\s\S]{10,80}" data-tipo="text"></textarea>
                                                     <label class="input-label_text" for="text">Mensaje</label>
                                                     <span class="input-message-error">Este campo no es valido</span>
                                                 </div>

@@ -41,6 +41,11 @@
     width: 100%;
     background-color: var(--color_Hueso);
 }
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+  }
+ 
 .input-label{
     position: relative;
     top: -28px;
@@ -68,13 +73,12 @@
     transition: all 0.25s;
     color: var(--color_ceniza_negra_7);
 }
-.input:focus + .input-label{
+.input:focus + .input-label, .input:not(:placeholder-shown) + .input-label {
     top: -3rem;
 
 }
-.mensaje_formaulario:focus + .input-label_text {
+.mensaje_formaulario:focus + .input-label_text, .mensaje_formaulario:not(:placeholder-shown) + .input-label_text {
     top: -14rem;
-    left: 3.9rem;
 }
 .input:focus, .mensaje_formaulario:focus{
     outline: none;
